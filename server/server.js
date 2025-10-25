@@ -8,7 +8,7 @@ const PORT = process.env.PORT || 5000;
 
 // Middleware
 app.use(cors({
-  origin: ['http://localhost:8080', 'http://localhost:8081', 'http://localhost:8084', 'https://4d79d86c1186.ngrok-free.app'],
+  origin: ['http://localhost:8080', 'http://localhost:8081', 'http://localhost:8084'],
   credentials: true
 }));
 app.use(express.json());
